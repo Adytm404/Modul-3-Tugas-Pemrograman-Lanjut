@@ -6,7 +6,6 @@ public class driver{
         Scanner sisi = new Scanner(System.in);
 
         int balok;
-        String menu;
 
         System.out.println("===[Balok Checker]===");
         System.out.print("Masukan sisi\t\t: ");
