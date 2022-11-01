@@ -50,6 +50,8 @@ public class Balok extends driver{
     }
 
     static boolean isCube(long input){
+
+        //refactor this
         return (Math.round(Math.cbrt(input))*Math.round(Math.cbrt(input))*Math.round(Math.cbrt(input))) == input;
     }
 
